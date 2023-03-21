@@ -52,7 +52,7 @@ CREATE TABLE "backers" (
     "first_name" varchar(50)   NOT NULL,
     "last_name" varchar(50)   NOT NULL,
     "email" varchar(100)   NOT NULL,
-	CONSTRAINT "pk_baclers" PRIMARY KEY (
+	CONSTRAINT "pk_backers" PRIMARY KEY (
         "backers_id"
      )
 );
