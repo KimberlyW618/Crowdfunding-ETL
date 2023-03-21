@@ -3,7 +3,7 @@
 ## Overview
 In this analysis we helped Independent Funding with a project to upgrade their data storage. This growing company had been using an Excel spreadsheet to store data on their projects and would love for the data to be more accessible and malleable. We will start by extracting the data and transform the large excel file into multiple csv files. With PostgresSQL we will create a database with our csv’s that we can work with. Further slicing and generating usable csv’s for Independent Funding so they can meet their goals. 
 
-### Resources
+## Resources
 
 - Software:
     - pgAdmin 4(version 6.15(4280.88))
@@ -29,14 +29,22 @@ In this analysis we helped Independent Funding with a project to upgrade their d
 
 ### Generated Data
 
-- Backers Info Data (csv) [deliverables/deliverable_generated_data/backers_info.csv](deliverables/deliverable_generated_data/backers_info.csv) 
-- Backers Data (csv) [deliverables/deliverable_generated_data/backers.csv](deliverables/deliverable_generated_data/backers.csv) 
-- E-mail Backers Remaining Goal Amount (csv) [deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv)
-- Email Contacts Remaining Goal Amount (csv) [deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv)
-- Campaign (csv) [module/module_generated_data/campaign.csv](module/module_generated_data/campaign.csv)
-- Contacts (csv) [module/module_generated_data/contacts.csv](module/module_generated_data/contacts.csv)
-- Category (csv) [module/module_generated_data/category.csv](module/module_generated_data/category.csv)
-- Subcategory (csv) [module/module_generated_data/subcategory.csv](module/module_generated_data/subcategory.csv)
+- Backers Info Data (csv)
+    [deliverables/deliverable_generated_data/backers_info.csv](deliverables/deliverable_generated_data/backers_info.csv) 
+- Backers Data (csv)
+    [deliverables/deliverable_generated_data/backers.csv](deliverables/deliverable_generated_data/backers.csv) 
+- E-mail Backers Remaining Goal Amount (csv)
+    [deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv)
+- Email Contacts Remaining Goal Amount (csv)
+    [deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv)
+- Campaign (csv)
+    [module/module_generated_data/campaign.csv](module/module_generated_data/campaign.csv)
+- Contacts (csv)
+    [module/module_generated_data/contacts.csv](module/module_generated_data/contacts.csv)
+- Category (csv)
+    [module/module_generated_data/category.csv](module/module_generated_data/category.csv)
+- Subcategory (csv)
+    [module/module_generated_data/subcategory.csv](module/module_generated_data/subcategory.csv)
 
 
 
@@ -44,7 +52,6 @@ In this analysis we helped Independent Funding with a project to upgrade their d
 
 ### Crowdfunding Database Relationship Diagram
 [deliverables/deliverable_images/crowdfunding_db_relationships.png](deliverables/deliverable_images/crowdfunding_db_relationships.png)
-
 ![deliverables/deliverable_images/crowdfunding_db_relationships.png](deliverables/deliverable_images/crowdfunding_db_relationships.png)
 
 ### Crowdfunding Database  
