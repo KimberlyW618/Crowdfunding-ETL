@@ -1,7 +1,7 @@
 # Crowdfunding-ETL_Analysis
 
 ## Overview
-
+In this analysis we helped Independent Funding with a project to upgrade their data storage. This growing company had been using an Excel spreadsheet to store data on their projects and would love for the data to be more accessible and malleable. We will start by extracting the data and transform the large excel file into multiple csv files. With PostgresSQL we will create a database with our csv’s that we can work with. Further slicing and generating usable csv’s for Independent Funding so they can meet their goals. 
 
 ### Resources
 
@@ -10,7 +10,7 @@
     - Jupyter Notebook
 - Languges:
     - SQL
-    - Python (pandas, json, regular expressions)
+    - Python (libraries: pandas, json, regular expressions)
 - Starting Data:
     - Backer Info Data (csv) [deliverables/deliverable_resources/backer_info.csv](deliverables/deliverable_resources/backer_info.csv)
     - Crowdfunding Data (xlsx) [module_practice/module_resources/crowdfunding.xlsx](module_practice/module_resources/crowdfunding.xlsx)
@@ -27,6 +27,8 @@
 [deliverables/deliverable_code/crowdfunding_SQL_Analysis_code.sql](deliverables/deliverable_code/crowdfunding_SQL_Analysis_code.sql)
 
 ### Generated Data
+
+- Backers Info Data (csv) [deliverables/deliverable_generated_data/backers_info.csv](deliverables/deliverable_generated_data/backers_info.csv) 
 - Backers Data (csv) [deliverables/deliverable_generated_data/backers.csv](deliverables/deliverable_generated_data/backers.csv) 
 - E-mail Backers Remaining Goal Amount (csv) [deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_backers_remaining_goal_amount.csv)
 - Email Contacts Remaining Goal Amount (csv) [deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv](deliverables/deliverable_generated_data/email_contacts_remaining_goal_amount.csv)
